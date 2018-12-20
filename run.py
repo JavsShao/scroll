@@ -17,3 +17,5 @@ js = 'window.scrollTo(0, document.body.scrollHeight)'
 driver.execute_script(js)
 # 查看拉到底的快照
 driver.save_screenshot("new.png")
+
+driver.close()
